@@ -55,9 +55,10 @@ export const VercelGuideModal: React.FC<VercelGuideModalProps> = ({ isOpen, onCl
           <div className="flex items-start gap-3 bg-[#062A4D] p-3.5 rounded-xl border border-[#0b3d6d]">
             <span className="w-6 h-6 rounded-full bg-[#6EC1E4] text-[#062A4D] font-bold flex items-center justify-center shrink-0 text-xs">3</span>
             <div>
-              <p className="font-semibold text-white">Framework Settings (Auto-detected)</p>
+              <p className="font-semibold text-white">Framework Settings & Install Command</p>
               <ul className="text-slate-300 mt-1 space-y-1 list-disc list-inside">
                 <li>Framework Preset: <span className="font-mono text-[#6EC1E4]">Vite</span></li>
+                <li>Install Command: <span className="font-mono text-[#6EC1E4]">npm install --legacy-peer-deps</span> (pre-configured in <span className="text-white font-mono">vercel.json</span> & <span className="text-white font-mono">.npmrc</span>)</li>
                 <li>Build Command: <span className="font-mono text-[#6EC1E4]">npm run build</span></li>
                 <li>Output Directory: <span className="font-mono text-[#6EC1E4]">dist</span></li>
               </ul>
