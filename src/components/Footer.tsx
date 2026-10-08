@@ -74,7 +74,6 @@ export const Footer: React.FC<FooterProps> = ({ onOpenBooking, onOpenVercelGuide
                 </a>
               </li>
               <li><a href="#double-glaze" className="hover:text-[#6EC1E4] transition-colors">Double Glazing</a></li>
-              <li><a href="#gallery" className="hover:text-[#6EC1E4] transition-colors">15-Photo Gallery</a></li>
               <li><a href="#comparison" className="hover:text-[#6EC1E4] transition-colors">Before & After Slider</a></li>
               <li><a href="#estimator" className="hover:text-[#6EC1E4] transition-colors">Cost Estimator</a></li>
               <li>
